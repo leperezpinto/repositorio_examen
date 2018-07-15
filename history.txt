@@ -1,0 +1,50 @@
+git commit -a -m "commit de la rama luis"
+git checkout master
+atom index.html
+git commit -a -m "commit de rama master para fusion"
+git merge luis
+git add 
+git add .
+git commit -m "se hizo el merge"
+atom index.html
+cd ..
+cd repositorio_examen
+git checkout luis
+atom index.html
+git commit -a -m "boton rama luis"
+git checkout master
+git merge luis
+git add .
+git commit 
+git commit -m 
+git add -m "commit de fusion"
+git push
+git status
+git log
+git log > console.log
+dir 
+atom console.log
+git add 
+git add .
+git commit -m "commit console.log"
+git push
+history
+doskey history
+doskey /history
+doskey /history > history.txt
+notepad index.html
+atom index.html
+git add .
+git commit -m "tercer commit"
+cd segundo index
+atom index.html
+cd ..
+git status
+git add .
+git commit -m "cuarto commit
+git push
+git add .
+git commit -m  "quinto commit"
+git push
+git checkout -b luis
+atom index.html
